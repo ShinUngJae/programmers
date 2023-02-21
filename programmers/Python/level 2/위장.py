@@ -8,7 +8,6 @@ def solution(clothes):
     types = []
     for i in clothes :
       types.append(i[1])
-    types2 = list(set(types))
 
     clothes_counter = Counter(types)
 
